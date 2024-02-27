@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Universitas MDP</title>
 </head>
+
 <body>
     <!-- (h) heading -->
     <!-- (p)  -->
     <h1>Universitas MDP</h1>
+
+    <!-- Link Navigasi -->
+    <hr>
+    <a href="daftar.html">Daftar</a>
+    <hr>
+
     <!-- Ini Komentar -->
     <p>Universitas MDP Merupakan Universitas Unggulan Di Kota Palembang</p>
 
@@ -33,9 +41,9 @@
     <h2>Dosen</h2>
     <!-- table -->
     <table border="1" width="70%">
-    <!-- Baris <tr> -->
-        <tr> 
-            <!-- Kolom <th> / <td> -->
+        <!-- Baris <tr> -->
+        <tr>
+            <!-- Kolom Bold<th> / Kolom <td> -->
             <th>Nama Dosen</th>
             <th>Foto</th>
             <th>Pendidikan</th>
@@ -51,17 +59,77 @@
             <td>Informatika</td>
             <td>AhmadKey21@gmail@gmail.com</td>
         </tr>
-         <tr>
+        <tr>
             <td>Pelix</td>
-            <td> <img src="img/pngtree-man-wearing-glasses-and-a-suit-smiles-for-the-camera-image_2904370.jpg" alt="Pelix" width="150px"></td>
+            <td> <img src="img/pngtree-man-wearing-glasses-and-a-suit-smiles-for-the-camera-image_2904370.jpg"
+                    alt="Pelix" width="150px"></td>
             <td>S3 Universitas Indonesia</td>
             <td>2129250029</td>
             <td>Informatika</td>
             <td>pelix03@gmail@gmail.com</td>
         </tr>
-     </table>
+    </table>
 
-     <hr>
-     &copy; 2024 Pemograman Web I   
+    <!-- Colpan -->
+    <!-- Colpan itu buat menggabungkan Tabel -->
+    <table border="1">
+        <tr>
+            <td colspan="2">R1 C1 c2</td>
+            <td>R1 C2</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- rowspan -->
+    <table border="1">
+        <tr>
+            <td rowspan="2">R1 C1</td>
+            <td>R1 C2</td>
+        </tr>
+        <tr>
+            <td>R2 C2</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--  -->
+    <table border="1">
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">Fakultas</th>
+            <th rowspan="2">Prodi</th>
+            <th colspan="2">Mahasiswa</th>
+            <th colspan="2"> Kelas</th>
+        </tr>
+        <tr>
+            <th>Laki</th>
+            <th>Perempuan</th>
+            <th>Pagi</th>
+            <th>Sore</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>FIKR</td>
+            <td>IF</td>
+            <td>400</td>
+            <td>300</td>
+            <td>350</td>
+            <td>350</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>FIKR</td>
+            <td>S1</td>
+            <td>500</td>
+            <td>400</td>
+            <td>450</td>
+            <td>450</td>
+        </tr>
+    </table>
+
+    <!-- untuk copyright -->
+    <hr>
+    &copy; 2024 Pemograman Web I
 </body>
+
 </html>
