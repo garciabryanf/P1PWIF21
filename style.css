@@ -1,0 +1,55 @@
+/* element selector */
+
+/* untuk kombinasi warna */
+/* ref colorhunt.co */
+body {
+    background-color:  #8e7ab5;
+}
+
+/* class selector */
+.col {
+    width: 25%;
+    background-color: #808080;
+    float: left;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: crimson;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.img-rounded{
+/* top-left  top-right bottom-right bottom-left */
+border-radius: 50% 50% 0 0;
+}
+
+.col-3 {
+    width: 33.33%;
+    background-color: yellow;
+    float: left;
+}
+
+.mb-5{
+    margin-bottom: 150px;
+}
+
+.mt-5{
+    margin-top: 150px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
