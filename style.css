@@ -1,17 +1,54 @@
+{
+    box-sizing: border-box
+}
 /* element selector */
 
-/* untuk kombinasi warna */
+
 /* ref colorhunt.co */
 body {
     background-color:  #8e7ab5;
 }
 
-/* class selector */
-.col {
-    width: 25%;
-    background-color: #808080;
-    float: left;
+/* mobile/hp */
+
+/* css tablet */
+@media screen and (min-width:600px) {
+    body {
+        background-color: yellow;
+    }
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+    }
+    
 }
+
+/* CSS Dekstop */
+@media screen and (min-width: 992px){
+   body {
+    background-color: green;
+   }
+
+   .col-lg-3 {
+    width: 25%;
+    background-color: lightblue;
+    float: left;
+   
+    }
+     .col-lg-4 {
+    width: 33.33%;
+    background-color: yellow;
+    float: left;
+        
+    }
+}
+
+/* class selector */
+
 
 .img-responsive {
     width: 100%;
@@ -36,7 +73,7 @@ border-radius: 50% 50% 0 0;
 
 .col-3 {
     width: 33.33%;
-    background-color: yellow;
+    background-color: palegreen;
     float: left;
 }
 
